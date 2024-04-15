@@ -17,7 +17,7 @@
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="image" class="form-label">Select Image:</label>
-                <input type="file" class="form-control allahyok" id="image" name="image">
+                <input type="file" class="form-control allahyok" id="image" name="image" accept="image/*">
             </div>
             <button type="submit" class="btn btn-primary">Upload</button>
         </form>
